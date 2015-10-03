@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FastTable</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="container"></div>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script src="../src/jquery.fasttable.js"></script>
+		<script>
+			$(function() {
+				var list = [];
+				for(var i = 1; i <= 1000000; i ++){
+					list.push('line ' + i);
+				}
+
+				$('#container').fastTable({
+					items: list,
+					rowHeight: 20,
+					buildRow: function (rowElem, rowIdx) {
+						var $elem = $(rowElem),
+								elemText = list[rowIdx];
+						$elem.append('<div>' + elemText + '</div>');
+						if (rowIdx % 2 !== 0) $elem.addClass("odd");
+					}
+				});
+			});
+		</script>
+	</body>
+</html>

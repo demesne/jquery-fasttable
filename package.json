@@ -1,0 +1,45 @@
+{
+  "name": "jquery-fasttable",
+  "version": "0.1.0",
+  "description": "A fast table scrolling jquery plugin.",
+  "keywords": [
+    "jquery",
+    "plugins",
+    "fasttable",
+    "jquery-plugin",
+    "jquery-fasttable"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/demesne/jquery-fasttable.git"
+  },
+  "bugs": {
+    "url": "https://github.com/demesne/jquery-fasttable/issues"
+  },
+  "author": {
+    "name": "Kumar Abhinav",
+    "email": "kumar.abhinav@me.com",
+    "url": "https://github.com/demesne"
+  },
+  "homepage": "http://jqueryboilerplate.com",
+  "contributors": [
+    {
+      "name": "Kumar Abhinav",
+      "email": "kumar.abhinav@me.com",
+      "url": "https://github.com/demesne"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-uglify": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "scripts": {
+    "test": "grunt travis --verbose"
+  }
+}

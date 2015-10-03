@@ -1,0 +1,18 @@
+{
+	"name": "jquery-fasttable",
+	"version": "0.1.0",
+	"homepage": "http://github.com",
+	"authors": [
+		"Kumar Abhinav<kumar.abhinav@me.com>"
+	],
+	"description": "A fast table scrolling jquery plugin.",
+	"main": "src/jquery.fasttable.js",
+	"keywords": [
+		"jquery",
+		"plugin",
+		"fasttable",
+		"jquery-plugin",
+		"jquery-fasttable"
+	],
+	"license": "MIT"
+}
